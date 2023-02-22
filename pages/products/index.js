@@ -38,7 +38,3 @@ const Products = () => {
 };
 
 export default Products;
-
-// prod.map(elm => {
-//     return <ProductItem key={elm.id} item = {elm} />
-// })
