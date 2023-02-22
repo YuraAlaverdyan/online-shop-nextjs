@@ -1,0 +1,32 @@
+.body {
+  min-height: 100vh;
+	display: grid;
+	place-items: center;
+
+	--bkg: #5eb3fd;
+	--white: #e7e6e6;
+
+	background-color: var(--white);
+	background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+}
+
+.shoppingCart { 
+    width: 750px; 
+    min-height: 423px; 
+    margin: 80px auto; 
+    background: #FFFFFF; 
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10); 
+    border-radius: 6px; 
+    
+    display: flex; 
+    flex-direction: column; 
+  } 
+   
+  .title { 
+    height: 60px; 
+    border-bottom: 1px solid #E1E8EE; 
+    padding: 20px 30px; 
+    color: #5E6977; 
+    font-size: 18px; 
+    font-weight: 400; 
+  }

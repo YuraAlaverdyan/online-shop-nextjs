@@ -1,0 +1,16 @@
+.body {
+    min-height: 89.5vh;
+	display: grid;
+	place-items: center;
+	--bkg: #5eb3fd;
+	--white: #e7e6e6;
+	background-color: var(--white);
+	background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}

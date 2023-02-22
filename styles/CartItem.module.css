@@ -1,0 +1,105 @@
+.item { 
+    padding: 20px 30px; 
+    height: 120px; 
+    display: flex; 
+  } 
+    
+  .item { 
+    border-top:  1px solid #E1E8EE; 
+    border-bottom:  1px solid #E1E8EE; 
+  } 
+   
+  .image { 
+    margin-right: 50px; 
+  } 
+
+  .image img {
+    max-height: 80px;
+    object-fit: contain;
+  }
+    
+  .description { 
+    padding-top: 10px; 
+    margin-right: 60px; 
+    width: auto; 
+  } 
+    
+  .description span { 
+    display: block; 
+    font-size: 14px; 
+    color: #43484D; 
+    font-weight: 400; 
+  } 
+    
+  .description span:first-child { 
+    margin-bottom: 5px; 
+  } 
+  .description span:last-child { 
+    font-weight: 300; 
+    margin-top: 8px; 
+    color: #86939E; 
+  } 
+   
+  .quantity { 
+    padding-top: 20px; 
+    margin-right: 60px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+  } 
+  .quantity p { 
+    border: none; 
+    text-align: center; 
+    width: 32px; 
+    font-size: 16px; 
+    color: #43484D; 
+    font-weight: 300; 
+  } 
+    
+ .btn { 
+    width: 30px; 
+    height: 30px; 
+    background-color: #E1E8EE; 
+    border-radius: 6px; 
+    border: none; 
+    cursor: pointer; 
+  } 
+  .minusbtn { 
+    padding: 5px 10px;
+    background-color: inherit;
+    border: 1px solid purple;
+    border-radius: 7px;
+  } 
+  .plusbtn { 
+    padding: 5px 10px;
+    background-color: inherit;
+    border: 1px solid purple;
+    border-radius: 7px;
+  } 
+    
+  .btn:focus, 
+  .input:focus { 
+    outline:0; 
+  } 
+ 
+  .buttons { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+  } 
+  .deleteBtn { 
+    display: inline-block; 
+    Cursor: pointer; 
+  } 
+   
+  .totalprice { 
+    width: auto; 
+    padding-top: 27px; 
+    text-align: center; 
+    font-size: 16px; 
+    color: #43484D; 
+    font-weight: 300; 
+    display: flex; 
+    align-items: center; 
+  }
